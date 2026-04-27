@@ -1,34 +1,75 @@
-#  Machine Learning Internship Tasks
+# Machine Learning Projects: Classification & Regression
 
-This repository contains two machine learning projects completed as part of an AI/ML internship assignment.
-
----
-
-##  Projects Included
-
-### 🌸 1. Iris Flower Classification
-
-* Built a classification model to predict iris flower species:
-
-  * Setosa
-  * Versicolor
-  * Virginica
-* Algorithms used: Logistic Regression
-* Evaluation metrics: Accuracy, Confusion Matrix
+This repository contains two end-to-end machine learning projects developed as part of practical AI/ML learning. The focus is on understanding core concepts such as data preprocessing, model training, evaluation, and visualization.
 
 ---
 
-### 🏠 2. House Price Prediction
+##  Overview
 
-* Developed a regression model to predict house prices based on features
-* Algorithm used: Linear Regression
-* Evaluation metric: Mean Squared Error (MSE)
+This repository demonstrates:
+
+* Supervised Learning (Classification & Regression)
+* Data Analysis & Visualization
+* Model Evaluation Techniques
+* Hands-on implementation using real datasets
+
+---
+
+## 🌸 Project 1: Iris Flower Classification
+
+###  Objective
+
+To classify iris flowers into three species based on sepal and petal measurements:
+
+* Setosa
+* Versicolor
+* Virginica
+
+###  Approach
+
+* Loaded dataset using `sklearn`
+* Performed exploratory data analysis using Seaborn
+* Split dataset into training and testing sets
+* Trained a **Logistic Regression** model
+
+###  Evaluation
+
+* Accuracy Score
+* Confusion Matrix
+
+###  Key Insight
+
+The model performs exceptionally well due to clear separability between classes, especially for Setosa.
+
+---
+
+## 🏠 Project 2: House Price Prediction
+
+###  Objective
+
+To predict house prices based on numerical features such as income, location, and housing attributes.
+
+###  Approach
+
+* Used California Housing dataset
+* Handled preprocessing and feature selection
+* Applied **Linear Regression** model
+* Split data into training and testing sets
+
+###  Evaluation
+
+* Mean Squared Error (MSE)
+* Actual vs Predicted visualization
+
+###  Key Insight
+
+Linear Regression provides a good baseline, but performance can be improved using more advanced models.
 
 ---
 
 ##  Tech Stack
 
-* Python
+* Python 
 * Pandas
 * NumPy
 * Matplotlib
@@ -37,22 +78,22 @@ This repository contains two machine learning projects completed as part of an A
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ML-Internship-Tasks/
 │
-├── iris_classification.ipynb
-├── house_price_prediction.ipynb
+├── 01_Iris_Classification.ipynb
+├── 02_House_Price_Prediction.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-##  How to Run?
+##  How to Run
 
-1. Clone this repository:
+1. Clone the repository:
 
 ```
 git clone https://github.com/your-username/ML-Internship-Tasks.git
@@ -64,30 +105,47 @@ git clone https://github.com/your-username/ML-Internship-Tasks.git
 pip install -r requirements.txt
 ```
 
-3. Open Jupyter Notebook:
+3. Launch Jupyter Notebook:
 
 ```
 jupyter notebook
 ```
 
-4. Run the notebooks step by step.
+4. Open and run the notebooks step by step.
 
 ---
 
-## 📊 Results
+##  Results Summary
 
-* Iris Classification achieved high accuracy on test data.
-* House Price Prediction model successfully minimized prediction error using Linear Regression.
+| Project                | Model               | Performance Metric |
+| ---------------------- | ------------------- | ------------------ |
+| Iris Classification    | Logistic Regression | High Accuracy      |
+| House Price Prediction | Linear Regression   | Low MSE            |
 
 ---
 
 ##  Future Improvements
 
-* Try advanced models (Random Forest, SVM)
-* Hyperparameter tuning
-* Deploy as a web app
+* Implement advanced models (Random Forest, XGBoost)
+* Perform hyperparameter tuning
+* Add feature engineering
+* Deploy models using a web interface (Flask/Streamlit)
 
 ---
 
-## 👩‍💻 Author
-Bhumika Patrange
+##  What I Learned
+
+* Practical implementation of ML workflows
+* Importance of data visualization
+* Model evaluation and interpretation
+* Difference between classification and regression problems
+
+---
+
+##  Author
+
+**Bhumika Patrange**
+
+---
+
+## ⭐ If you found this useful, consider giving it a star!
